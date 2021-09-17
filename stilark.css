@@ -1,0 +1,75 @@
+
+* {
+    font-family: 'Sora', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#fixed-menu {
+    font-size: 30px;
+    text-align: center;
+    background-color: rgb(116, 116, 116);
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    margin: 0;
+    padding: 10px;
+    text-decoration: none;
+    transition: 0.5s;
+    color: white;
+}
+
+#spacer {
+    width: 100%;
+    height: 25px;
+}
+.link {
+    border: 1px solid black;
+    margin: 10%;
+    padding: 5%;
+    background-color: rgba(105, 105, 105, 0.541);
+    border-radius: 10px;
+    color: white;
+}
+img {
+    width: 50vw;
+    height: auto;
+    margin: 0 25vw 0 25vw;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.text {
+    margin: 10%;
+    text-align: left;
+    color: white;
+}
+
+body {
+    background-image: linear-gradient(#0000007c, #0000007c), url("bilder/paola-ocaranza-WT_jlGC4RjI.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+/*gjør at bilde passe*/
+
+.link a{
+    transition: 0.7s; 
+}
+/*bytter farge gradevis*/
+
+.link a:hover{
+    color: black; 
+}
+
+.link a:visited {
+    color: purple;
+}
+
+hr {
+    border: solid black 1px;
+}
+
+.main
+{
+    margin-top: 100px;
+}
